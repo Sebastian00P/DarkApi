@@ -131,3 +131,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+DarkAPI/bin/Debug/net5.0/DarkAPI.dll
+
+*.dll

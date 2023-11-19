@@ -17,6 +17,7 @@ namespace DarkAPI.Controllers
             _margonemService = margonemService;
         }
         [HttpGet]
+        [Route("GetToken")]
         public bool GetUserToken()
         {
             var userIpAddress = HttpContext.Connection.RemoteIpAddress.ToString();
