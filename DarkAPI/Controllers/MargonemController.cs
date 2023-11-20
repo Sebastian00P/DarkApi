@@ -18,11 +18,10 @@ namespace DarkAPI.Controllers
         }
         [HttpGet]
         [Route("GetToken")]
-        public bool GetUserToken()
-        {
-            var userIpAddress = HttpContext.Connection.RemoteIpAddress.ToString();
+        public bool GetUserToken(string userId)
+        {          
             var addresses = _margonemService.ReadAddressesFromFile();
-            if (addresses.Contains(userIpAddress))
+            if (addresses.Contains(userId))
             {
                 return true;
             }
@@ -30,6 +29,24 @@ namespace DarkAPI.Controllers
             {
                 return false;
             }
+        }
+        [HttpPost]
+        [Route("AddUserIdToList")]
+        public bool AddUserId(string userId)
+        {
+            return _margonemService.AddUserIdToList(userId);
+        }
+        [HttpDelete]
+        [Route("RemoveUserIdToList")]
+        public bool RemoveUserId(string userId)
+        {
+            return _margonemService.RemoveUserIdFromList(userId);
+        }
+        [HttpGet]
+        [Route("GetAllUserIds")]
+        public List<string> GetAllUserIds()
+        {
+            return _margonemService.ReadAddressesFromFile();         
         }
     }
 }

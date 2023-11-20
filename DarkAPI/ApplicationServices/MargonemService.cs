@@ -40,5 +40,49 @@ namespace DarkAPI.ApplicationServices
 
             return addresses;
         }
+        public bool AddUserIdToList(string userId)
+        {
+            try
+            {
+                List<string> userIds = File.ReadAllLines(FilePath).ToList();
+                if (userIds.Contains(userId))
+                {
+                    return false;
+                }
+                using (StreamWriter sw = File.AppendText(FilePath))
+                {
+                    sw.WriteLine(userId);
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+        public bool RemoveUserIdFromList(string userId)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(FilePath);
+                List<string> updatedLines = new List<string>();
+
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    if (lines[i] != userId)
+                    {
+                        updatedLines.Add(lines[i]);
+                    }
+                }
+
+                File.WriteAllLines(FilePath, updatedLines.ToArray());
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
     }
 }

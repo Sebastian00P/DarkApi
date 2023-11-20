@@ -5,7 +5,6 @@ C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\DarkAPI.deps.jso
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\DarkAPI.runtimeconfig.json
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\DarkAPI.runtimeconfig.dev.json
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\DarkAPI.dll
-C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\ref\DarkAPI.dll
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\DarkAPI.pdb
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,7 +18,6 @@ C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.csproj.C
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\DarkAPI.StaticWebAssets.Manifest.cache
-C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\DarkAPI.StaticWebAssets.xml
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\scopedcss\bundle\DarkAPI.styles.css
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.csproj.CopyComplete
@@ -27,3 +25,9 @@ C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.dll
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\ref\DarkAPI.dll
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.pdb
 C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\DarkAPI.genruntimeconfig.cache
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\DarkAPI.StaticWebAssets.Pack.cache
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\msbuild.DarkAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\msbuild.build.DarkAPI.props
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.DarkAPI.props
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.DarkAPI.props
+C:\Users\Admin\Desktop\darkApi\DarkAPI\DarkAPI\obj\Debug\net5.0\refint\DarkAPI.dll
